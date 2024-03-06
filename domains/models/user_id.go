@@ -14,3 +14,6 @@ func NewUserId(id uuid.UUID) *UserId {
 
 	return userId
 }
+
+var inmemory_uuid, _ = uuid.NewRandom()
+var Inmemory_user_id = NewUserId(inmemory_uuid)

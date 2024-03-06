@@ -2,7 +2,7 @@ package domains
 
 type User struct {
 	email UserEmail
-	id    UserId
+	Id    UserId
 	name  UserName
 }
 
@@ -10,7 +10,7 @@ func NewUser(email UserEmail, id UserId, name UserName) (*User, error) {
 	user := &User{}
 
 	user.ChangeEmail(email)
-	user.id = id
+	user.Id = id
 	user.ChangeName(name)
 
 	return user, nil

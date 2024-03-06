@@ -20,7 +20,7 @@ func TestUser(t *testing.T) {
 		user, _ := NewUser(*userEmail, *userId, *userName)
 
 		assert.Equal(t, user.email, *userEmail)
-		assert.Equal(t, user.id, *userId)
+		assert.Equal(t, user.Id, *userId)
 		assert.Equal(t, user.name, *userName)
 	})
 }
