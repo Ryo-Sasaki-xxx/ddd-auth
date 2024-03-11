@@ -1,6 +1,6 @@
 package infra
 
-import domains "github.com/Ryo-Sasaki-xxx/ddd-auth/domains/models"
+import domains "domains/models"
 
 type InMemoryUserRepository struct {
 	store map[domains.UserId]*domains.User
