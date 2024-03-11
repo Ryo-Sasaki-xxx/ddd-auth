@@ -1,7 +1,7 @@
 package domains
 
 import (
-	domains "github.com/Ryo-Sasaki-xxx/ddd-auth/domains/models"
+	domains "domains/models"
 )
 
 type UserService struct {

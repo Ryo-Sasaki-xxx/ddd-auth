@@ -1,4 +1,4 @@
-module github.com/Ryo-Sasaki-xxx/ddd-auth/domains
+module domains
 
 go 1.21.5
 
